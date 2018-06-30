@@ -1,0 +1,101 @@
+body {
+
+    text-align: center;
+}
+
+
+
+h1 {
+
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+
+    border: 1px solid #eee;
+}
+
+table {
+
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+
+    height: 20px;
+}
+
+td {
+
+    width: 20px;
+}
+
+input[type=number] {
+
+    width: 6em;
+}
+
+/* Addtional styles */
+
+#container {
+
+    margin: 0 auto;
+    color: rgb(80, 80, 80);
+    padding: 25px;
+    width: 70%;
+    border: 2px solid #eee;
+    box-shadow: 3px 3px 3px 3px #eee;
+}
+
+h1 {
+
+    color: #000;
+}
+
+input {
+
+    border: 3px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px #eee; 
+}
+
+.submit-button {
+ 
+    background-color: skyblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type=color]{
+
+    border: 3px;
+    padding: none;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #eee; 
+}
+
+
+table {
+    /* added more style to the table */
+    padding: 5px;    
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px #eee;
+}
